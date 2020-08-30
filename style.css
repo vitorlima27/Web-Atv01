@@ -1,0 +1,127 @@
+/* Paleta  de cores
+    Vermelho #e5185d    Azul #0073ff
+    Rosa #baa9b1        Ciano #7b93a5
+    Cinza #9fb4c7       Marca #cacaca */
+
+    /*Gerais e background*/    
+body{
+    background-color: #7b93a5;
+    font-family: calibri;
+}
+#background{
+    margin: 2%;
+    background-color: white;
+}
+
+/* Conteúdo da página */
+#cabecalho{
+    margin: 0px 50px 10px 80px;
+    padding-top: 30px;
+    align-content: center;
+}
+
+#content{
+    margin: 0px 50px 10px 80px;
+    display: flex;
+}
+#content h1{
+    font-size: 40px;
+    padding: 0px;
+    margin: 0px;
+    width: 290px;
+}
+#contentLeft{ 
+    padding: 60px 30px;
+}
+#contentRight{ height: 500px; }
+#contentImg{ 
+    height:400px;
+    margin-left: 150px; 
+}
+
+#businesses{ margin: 0px 50px 10px 80px; font-size: 10px;}
+#businesses img{ align-self: auto;}
+#businesses a{ color: blue;}
+
+#comentarios {margin: 0px 50px 10px 80px; display: flex;}
+#recado{ width: 40%; text-align: right;}
+#form{
+    display: inline;     
+    align-content: flex-start; 
+    text-align-last: right;
+}
+#inputNome{margin: 10px;}
+#inputMensagem{margin: 10px;}
+#recado h3{ text-align: center; }
+
+#mural{
+    width: 100%;
+    text-align-last: center;
+    margin: 0px 10px;
+}
+
+#listaRecados{
+    text-align-last: right;
+    display: inline-block;
+}
+.divRecado{ margin: 4px; }
+.divRecado p {
+    width: 90%;
+    display: inline-block;
+    text-align: justify;
+}
+
+footer{
+    margin: 0px 50px 10px 80px;
+    display: flex;
+    align-items: center;
+}
+
+/* Botões */
+
+button{
+    color: white;
+    border-radius: 10%;
+    border: 0px;
+    width: 100px;
+    height: 35px;
+}
+.btnBgrnd{
+    height: 10px;
+    width: 50px;
+}
+
+.btn1{ background-color: transparent; color: black;}
+.btn2{ background-color: transparent; 
+    color: black; 
+    font-size: 10px; 
+    width: fit-content;
+    margin: 3px;
+}
+
+#btnC1{ background-color: #7b93a5;}
+#btnC2{ background-color: #baa9b1;}
+#btnC3{ background-color: #9fb4c7;}
+#btnLogin{ border-bottom: blue; }
+#btnSignUp{ background-color: #0073ff;}
+#btnEnviar{ background-color: #0073ff;}
+
+#firstBTN{ margin-left: 400px; }
+#lastBTN{ margin-left: 250px; }
+
+#btnContent button{
+    margin: 10px 2px;
+    width: 100px;
+    font-size: 10px; 
+}
+
+#btnBecome{ background-color: #e5185d; }
+#btnFind{ background-color: #0073ff; }
+
+#btnEnviar{ text-align-last: center; margin: 5px; width: fit-content;}
+.divRecado button { background-color: #0073ff; width: fit-content; } 
+
+footer button{
+    background-color: #0073ff ;
+    margin: 2px;
+}

@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="imagem/png" href="imagens/icon.png" />
+    <title>TheXpert</title>
+</head>
+<body>
+    <div id="background" >
+        <header id="cabecalho">
+            <div>
+                <picture id="logo">
+                    <img src="imagens/logo.png" alt="Logo">
+                </picture>
+                <button class="btn1" id="firstBTN">How it works?</button>
+                <button class="btn1">About Us</button>
+                <button class="btn1">Contact Us</button>
+                <button class="btn1" id="btnLogin">Log in</button>
+                <button id="btnSignUp">Sign Up</button>
+            </div>
+            <div class="botoes">
+                <button class="btnBgrnd" id="btnC1"></button>
+                <button class="btnBgrnd" id="btnC2"></button>
+                <button class="btnBgrnd" id="btnC3"></button>
+            </div>
+            <div>
+                <button class="btn2">WEB DEV</button>
+                <button class="btn2">MOBILE DEV</button>
+                <button class="btn2">DESIGN</button>
+                <button class="btn2">WRITING</button>
+                <button class="btn2">ADMIN SUPPORT</button>
+                <button class="btn2">CUSTOMER SERVICE</button>
+                <button class="btn2">MARKETING</button>
+                <button class="btn2">ACCOUNTING</button>
+                <button class="btn2" id="lastBTN">SEE ALL CATEGORIES</button>
+            </div>
+        </header>
+        <div id="content">
+            <div id="contentLeft">
+                <h1>Looking</h1> 
+                <h1>for a part-time</h1>
+                <h1>or project based</h1>
+                <h1>talent?</h1>
+                <p>Choose your direction and let's start!</p>
+
+                <div id="btnContent">
+                    <button id="btnBecome">Become an Expert</button>
+                    <button id="btnFind">Find an Expert</button>
+                </div>
+
+            </div>
+            <div id="contentRight">
+                <img id="contentImg" src="imagens/expert.png" alt="XpertContent" >
+            </div>
+        </div>
+        <div id="businesses">
+            <p>TRUSTED BY <a>100k+ BUSINESSES</a></p>
+            <img src="imagens/businesses.png" alt="">
+        </div>
+        <div id="comentarios">
+            <div id="recado">
+                <h3 id="divTitulo">Deixe seu recado!</h3>
+                <form id="form">
+                    <div id="divNome">
+                        <label for="nome">Nome:</label> 
+                        <input type="text" name="nome" id="inputNome">
+                    </div>
+                    <div id="divMenssagem">
+                        <label for="msg">Menssagem:</label> 
+                        <input type="text" name="menssagem" id="inputMensagem">
+                    </div>
+                    <button type="submit" id="btnEnviar">Enviar</button>
+                </form>
+            </div>
+            <div id="mural">
+                <h3>Mural de recados:</h3>
+                <div id="listaRecados">
+                    <div class="divRecado">
+                        <p>Nome:Lorem Ipsum Recado:Lorem Ipsum is simply dummy text.</p> 
+                        <button>Excluir</button>
+                    </div>
+                    <div class="divRecado">
+                        <p>Nome: LI Recado: Lorem Ipsum</p> 
+                        <button>Excluir</button>
+                    </div>
+                    <div class="divRecado">
+                        <p>Nome:Lorem Ipsum Recado: Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+                        <button>Excluir</button>
+                    </div>
+                </div>    
+            </div>
+        </div>
+        <footer>
+            <p>Para mais informações:</p>
+            <button id='creditos'>Créditos</button>
+        </footer>        
+    </div>
+    <script src="scripts.js"></script>
+</body>
+</html>
